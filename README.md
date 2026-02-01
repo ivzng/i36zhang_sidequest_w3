@@ -6,15 +6,15 @@ GBDA302 Week 3 Example 1: Instructions Screen with Back button
 
 ## Authors
 
-Karen Cochrane and David Han
+Ivy Zhang
+i36zhang
+21074840
 
 ---
 
 ## Description
 
-This p5.js project demonstrates a simple multi-screen game structure using a state-based approach. The example includes a start screen, an instructions screen with a back button, a basic game screen, and win/lose outcome screens. The focus is on showing how to separate screens into different files, route input based on the current game state, and design simple UI elements such as buttons and keyboard controls.
-
----
+Colour Doors is a short interactive “side quest” where the player chooses two coloured doors in sequence. Each door choice is randomly generated from RGB options (red, green, blue). After the second choice, the game reveals a final “world colour” by mixing the two selected colours using additive RGB (e.g., blue + red = purple/magenta). The project is built using a multi-screen p5.js template with a start screen, instructions screen, gameplay screen, and ending screen.
 
 ## Learning Goals
 
@@ -34,6 +34,6 @@ N/A
 
 ## GenAI
 
-The code was written by Dr. Karen Cochrane but she used GenAI to write the comments.
+GenAI was used to support implementation planning (structure of a simple decision tree, suggested variables for storing choices, and an outline for additive RGB mixing). The creative concept of colour-labeled doors was my own (inspired by a door puzzle scenario from The Apothecary Diaries), and I adapted it to fit this side quest format. All final integration into the existing multi-file template, state routing, UI layout, and testing/debugging were done by me.
 
 ---
